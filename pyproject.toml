@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "chatbot-demo"
+version = "0.1.0"
+description = ""
+authors = ["iliab <ilia.bukin1@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.9.7 || >3.9.7,<4.0"
+streamlit = "^1.38.0"
+langchain = "^0.2.16"
+langchain-openai = "^0.1.23"
+langchain-astradb = "^0.3.5"
+python-dotenv = "^1.0.1"
+llama-index = "^0.11.7"
+llama-parse = "^0.5.2"
+langchain-google-community = "^1.0.8"
+yfinance = "^0.2.43"
+duckduckgo-search = "^6.2.11"
+tavily-python = "^0.4.0"
+asknews = "^0.7.39"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
